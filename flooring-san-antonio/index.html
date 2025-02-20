@@ -815,9 +815,10 @@ jQuery(document).ready(function ($) {
         }
 
         // AJAX Submission
-        $.ajax({
-            url: "https://projects.codeartssolution.in/crt-flooring-api/send_email.php",
+       $.ajax({
+            url: "send_email.php",
             type: "POST",
+            dataType: "json",
             data: {
                 first_name: firstName,
                 last_name: lastName,
@@ -825,13 +826,17 @@ jQuery(document).ready(function ($) {
                 message: message
             },
             success: function (response) {
-                alert(response);
-                $(".custom-contact-frm")[0].reset(); // Reset form after success
+                if (response.status === "success") {
+                    window.location.href = response.redirect; // Redirect to Thank You page
+                } else {
+                    alert(response.message);
+                }
             },
             error: function () {
                 alert("There was an error sending the email. Please try again.");
             }
         });
+
     });
 
     // Email validation function
