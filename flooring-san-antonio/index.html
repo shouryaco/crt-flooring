@@ -784,10 +784,10 @@ jQuery(document).ready(function ($) {
     $(".contact-btn input").click(function (event) {
         event.preventDefault();
 
-        let firstName = $("input[placeholder='John']").val().trim();
-        let lastName = $("input[placeholder='Smith']").val().trim();
-        let email = $("input[placeholder='john123@gmail.com']").val().trim();
-        let message = $("input[placeholder='Lorem Ipsum']").val().trim();
+        let firstName = $("input[name='first_name']").val().trim();
+        let lastName = $("input[name='last_name']").val().trim();
+        let email = $("input[name='email']").val().trim();
+        let message = $("input[name='message']").val().trim();
         let isValid = true;
 
         // Validation
