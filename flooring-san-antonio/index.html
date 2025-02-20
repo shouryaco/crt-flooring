@@ -805,7 +805,7 @@ jQuery(document).ready(function ($) {
             isValid = false;
         }
         if (message === "") {
-            $("input[placeholder='Lorem Ipsum']").addClass("error");
+            $(".look").addClass("error");
             isValid = false;
         }
 
@@ -816,7 +816,7 @@ jQuery(document).ready(function ($) {
 
         // AJAX Submission
         $.ajax({
-            url: "send_email.php",
+            url: "http://projects.codeartssolution.in/crt-flooring-api/send_email.php",
             type: "POST",
             data: {
                 first_name: firstName,
