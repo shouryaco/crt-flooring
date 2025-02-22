@@ -24,7 +24,7 @@ jQuery('#custom-testimonials-owl').owlCarousel({
     navText : ["<i class='las la-long-arrow-alt-left'></i>","<i class='las la-long-arrow-alt-right'></i>"],
     responsive:{
         0:{
-            items:2
+            items:1
         },
         700:{
             items:2
@@ -46,7 +46,7 @@ jQuery('#custom-partner-owl').owlCarousel({
     navText : ["<i class='las la-long-arrow-alt-left'></i>","<i class='las la-long-arrow-alt-right'></i>"],
     responsive:{
         0:{
-            items:1
+            items:2
         },
         700:{
             items:2
