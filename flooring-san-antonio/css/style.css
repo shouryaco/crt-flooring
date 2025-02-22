@@ -949,7 +949,10 @@ p.cs-sml {
   width: 100% !important;
   object-fit: contain;
 }
-
+.our-company .custom-heading h3 {
+  width: 74%;
+  margin-bottom: 30px;
+}
 
 
 
