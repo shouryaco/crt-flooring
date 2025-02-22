@@ -944,7 +944,11 @@ p.cs-sml {
   background-image: unset;
   color: var(--c-dark-blue);
   }
-
+.partner-item img {
+  height: 40px;
+  width: 100% !important;
+  object-fit: contain;
+}
 
 
 
