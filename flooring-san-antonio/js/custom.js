@@ -39,7 +39,7 @@ jQuery('#custom-testimonials-owl').owlCarousel({
 });
 jQuery('#custom-partner-owl').owlCarousel({
     loop:true,
-    margin:24,
+    margin:30,
     dots:false,
     nav:false,
     autoplay:true,
