@@ -127,6 +127,7 @@
     .custom-testimonials .custom-heading {margin-bottom: 30px;}
     .custom-pad {padding: 40px 0;}
     .iml-pro-part .tm-product-card img {height: auto;}
+	.our-company .custom-heading h3 {width: 100%;}
 }
 
 @media only screen and (max-width: 480.98px) {	
