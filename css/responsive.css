@@ -80,6 +80,9 @@
     .tes-cta-wrap .col-lg-6:last-child {min-height: 540px;}
     .acco-wrap .accordion-button {font-size: 20px;}
     .acco-wrap .accordion-body {font-size: 16px;}
+	 .custom-heading h2 {
+    font-size: 18px;
+  }
     
 }
 
