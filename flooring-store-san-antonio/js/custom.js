@@ -1,0 +1,41 @@
+// JavaScript Document
+jQuery('#custom-owl').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+jQuery('#custom-testimonials-owl').owlCarousel({
+    loop:true,
+    margin:24,
+    dots:true,
+    nav:true,
+    center:true,
+    navText : ["<i class='las la-long-arrow-alt-left'></i>","<i class='las la-long-arrow-alt-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:2
+        },
+        900:{
+            items:4
+        },
+        1300:{
+            items:4
+        }
+    }
+});
+
+
